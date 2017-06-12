@@ -3,6 +3,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 
 import Shuffle from './components/Shuffle.js';
+import Jumbotron from './components/Jumbotron.js';
 
 import './App.css';
  
@@ -13,7 +14,7 @@ class App extends Component {
 
         <Header/>
 
-        <div className="jumbotron"><h1>test</h1></div>
+        <Jumbotron/>
         
         <Shuffle/>
     		

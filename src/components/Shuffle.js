@@ -5,14 +5,14 @@ import Project from './Project.js';
 class Shuffle extends React.Component {
   render() {
     return (
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 col-xs-12" align="center">
-                        <button class="btn btn-default filter-button" data-filter="all">All</button>
-                        <button class="btn btn-default filter-button" data-filter="hdpe">Web</button>
-                        <button class="btn btn-default filter-button" data-filter="sprinkle">Android</button>
-                        <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
-                        <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+            <div>
+                <div className="row shuffle-nav">
+                    <div className="col-lg-12 col-xs-12 text-center">
+                        <button className="btn btn-default filter-button" data-filter="all">All</button>
+                        <button className="btn btn-default filter-button" data-filter="hdpe">Web</button>
+                        <button className="btn btn-default filter-button" data-filter="sprinkle">Android</button>
+                        <button className="btn btn-default filter-button" data-filter="spray">Games</button>
+                        <button className="btn btn-default filter-button" data-filter="irrigation">Misc</button>
                     </div>
                 </div>
                 
