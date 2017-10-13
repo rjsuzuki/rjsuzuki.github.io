@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 
-import Shuffle from './components/Shuffle.js';
+import ShuffleView from './components/ShuffleView.js';
 import Jumbotron from './components/Jumbotron.js';
 
 import './App.css';
@@ -16,7 +16,7 @@ class App extends Component {
 
         <Jumbotron/>
         
-        <Shuffle/>
+        <ShuffleView/>
     		
         <Footer/>
         

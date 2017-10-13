@@ -1,16 +1,17 @@
 import React from 'react';
 import './Project.css';
+import Shuffle from 'react-shuffle';
 
 
 class Project extends React.Component {
   render() {
     return (
-            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div className="panel panel-default">
-                      <div className="panel-heading">{this.props.title}</div>
-                      <div className="panel-body">{this.props.content}</div>
-                    </div>
-            </div>
+            <Shuffle className="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="shuffle-item item">
+                  <div className="panel panel-default">
+                    <div className="panel-heading">{this.props.title}</div>
+                    <div className="panel-body"><img src={this.props.imgSrc} alt={this.props.alt} width={300} height={150} mode="fit"/></div>
+                  </div>
+            </Shuffle>
         );
   }
 }

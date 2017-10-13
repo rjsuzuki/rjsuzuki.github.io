@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 
+
 class Header extends React.Component {
   render() {
     return (
@@ -14,20 +15,16 @@ class Header extends React.Component {
                 <span className="icon-bar"></span>
               </button>
               <div className="row brand">
-                <a className="span2" href="#"><h3 className="text-muted">Ryan J. Suzuki</h3></a>
-                <a className="social" href="http://linkedin.com">linkedin</a>
-                <a className="social" href="http://github.com">github</a>
+                <ul className="nav nav-pills pull-right">
+                  <li><a className="social" href="http://linkedin.com/in/ryanjsuzuki">linkedin</a></li>
+                  <li><a className="social" href="http://github.com/rjsuzuki">github</a></li>
+                </ul>
               </div>
-
-
             </div>
           
             <div id="navbar" className="header navbar-collapse collapse">
       					<ul className="nav nav-pills pull-right">
-      						<li className="nav-item"><a className="nav-a active" to="/">Home</a></li>
-      						<li className="nav-item"><a className="nav-a" href="/projects">Projects</a></li>
-      						<li className="nav-item"><a className="nav-a" href="/about">About</a></li>
-      						<li className="nav-item"><a className="nav-a" href="#">Contact</a></li>
+      						<li className="nav-item"><a className="nav-a" href="mailto:ryan@ryanjsuzuki.com">Contact</a></li>
       					</ul>
       			</div>
           </div>
