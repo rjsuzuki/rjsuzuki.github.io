@@ -13,6 +13,8 @@ class ShuffleView extends React.Component {
                 <Project title="Northern California Karate" imgSrc={projectimg1} alt="nck" data-groups='["web"]'/>
                 <Project title="Cygna Energy Services" imgSrc={projectimg2} alt="cygna" data-groups='["web"]'/>
                 <Project title="Flappy Bird Clone" imgSrc="http://placehold.it/300x100" alt="flappy" data-groups='["misc"]'/>
+                <Project title="Dotfiles" imgSrc="http://placehold.it/300x100" alt="dotfiles" data-groups='["misc"]' />
+                
             </div>
         </div>
     );
